@@ -15,7 +15,7 @@ header nav{display:inline-block;}
 header nav ul li{display:inline-block;}
 header nav ul li a{display:block;color:#eef;padding:.25em 1em;border-left:solid thin #eef;text-decoration:none;}
 header nav ul li:first-of-type a{border-left:0px;}
-header nav ul .current a{background:#eef;color:#006;}
+header nav ul .current a,header nav ul li a:hover{background:#eef;color:#006;}
 header aside,footer{background:#eef;text-align:center;padding:1em;color:#006;}
 #main{width:100%;overflow: hidden;clear:both;}
 #main div{float:left;}
