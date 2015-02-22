@@ -1,10 +1,7 @@
-/* Colors:
-    black #000
-    dark grey #333
-    dark blue #006
-    lighter blue #009
-    gold #fe3
-    pale gold #fe9
+/* Fonts:
+    Lato: sans-serif, whole page
+    Montserrat: bold sans-serif, asides
+    Roboto Slab: serif, headings
 */
 *{box-sizing:border-box;}
 a{color:#349;}
