@@ -7,21 +7,28 @@
     pale gold #fe9
 */
 *{box-sizing:border-box;}
-html{font:16pt/20pt sans-serif;background:#000;color:#eef;margin:0;padding:0;}
-body{width:1000px;max-width:90%;background:#111;margin:0 auto;padding:0;text-align:center;}
-header{width:100%;background:#003;text-align:center;}
+a{color:#349;}
+html{font:16pt/20pt sans-serif;background:#eee;color:#222;margin:0;padding:0;}
+body{width:1000px;max-width:90%;background:rgba(10,10,10,.2);margin:0 auto;padding:0;text-align:center;}
+header{width:100%;background:#003;text-align:center;color:#eef;}
 header h1{display:inline-block;}
 header nav{display:inline-block;}
 header nav ul li{display:inline-block;}
 header nav ul li a{display:block;color:#eef;padding:.25em 1em;border-left:solid thin #eef;text-decoration:none;}
 header nav ul li:first-of-type a{border-left:0px;}
 header nav ul .current a,header nav ul li a:hover{background:#eef;color:#006;}
-header aside,footer{background:#eef;text-align:center;padding:1em;color:#006;}
+header aside,footer{background:#334;text-align:center;padding:1em;color:#dde;}
 #main{width:100%;overflow: hidden;clear:both;}
+#main img{max-width:90%;}
 #main div{float:left;}
-#main .projects{width:60%;min-height:35em;}
+#main .projects{width:70%;min-height:35em;border-right:thin solid #000;border-left:thin solid #222;}
 #main .projects>ul,#main .doodles>ul{list-style:none;padding:0;}
 #main .projects li{display:inline-block;width:30%;margin:1em 0;}
-#main .projects li img{max-width:90%;}
-#main .doodles{width:39%;min-height:35em;}
+#main .doodles{width:30%;min-height:35em;border-left:thin solid #222;border-right:thin solid #222;padding-bottom: 20000px;margin-bottom: -20000px;}
+#main .doodles li{border-top:thin dashed #000;padding-bottom:1em;}
+#main .doodles li:first-of-type{border:0;}
 footer{width:100%;clear:both;}
+@media (max-width:800px){
+    #main div{clear:both;}
+    #main .projects,#main .doodles{width:100%;border:0;}
+}
