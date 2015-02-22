@@ -20,6 +20,7 @@ header nav ul li:first-of-type a{border-left:0px;}
 header nav ul .current a,header nav ul li a:hover{background:#eef;color:#006;}
 header aside,footer{background:#334;text-align:center;padding:1em;color:#dde;font-family:Montserrat,serif;}
 header aside a,footer a{color:#dde;}
+/** Kicking things in the face here. **/
 #main{width:100%;overflow: hidden;clear:both;}
 #main img{max-width:90%;}
 #main div{float:left;}
