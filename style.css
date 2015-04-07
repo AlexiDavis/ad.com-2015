@@ -9,7 +9,7 @@ html{font:16pt/20pt Lato,sans-serif;background:#eee;color:#222;margin:0;padding:
 body{width:1000px;max-width:90%;background:rgba(10,10,10,.2);margin:0 auto;padding:0;text-align:center;}
 h1,h2,h3{font-family:"Roboto Slab",serif;}
 header{width:100%;background:#003;text-align:center;color:#eef;}
-header h1{display:inline-block;font-size:3em;}
+header h1{display:inline-block;font-size:3em;margin-top:1em;}
 header nav{display:inline-block;}
 header nav ul li{display:inline-block;}
 header nav ul li a{display:block;color:#eef;padding:.25em 1em;border-left:solid thin #eef;text-decoration:none;}
