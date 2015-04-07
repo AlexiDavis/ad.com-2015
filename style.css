@@ -27,7 +27,7 @@ header aside a,footer a{color:#dde;}
 #main .doodles li{border-top:thin dashed #888;padding-bottom:1em;}
 #main .doodles li:first-of-type{border:0;}
 footer{width:100%;clear:both;text-align:center;}
-footer a{display:inline-block;padding:.75em;margin:.75em;color:#ff8800;border:2em solid #ff8800;border-radius:3px;}
+footer a{display:inline-block;padding:.75em;margin:.75em;color:#ff8800;border:2px solid #ff8800;border-radius:3px;}
 footer p{display:inline-block;width:60%;}
 @media (max-width:800px){
     #main div{clear:both;}
