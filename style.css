@@ -8,9 +8,9 @@ a{color:#349;}
 html{font:16pt/20pt Lato,sans-serif;background:#eee;color:#222;margin:0;padding:0;}
 body{width:1000px;max-width:90%;background:rgba(10,10,10,.2);margin:0 auto;padding:0;text-align:center;}
 h1,h2,h3{font-family:"Roboto Slab",serif;}
-header{width:100%;background:#003;text-align:center;color:#eef;}
-header h1{display:inline-block;font-size:3em;margin-top:1em;}
-header nav{display:inline-block;}
+header{width:100%;background:#003;text-align:center;color:#eef;position:relative;}
+header h1{display:inline-block;font-size:3em;position:absolute;bottom:0;}
+header nav{display:inline-block;position:absolute;bottom:0;}
 header nav ul li{display:inline-block;}
 header nav ul li a{display:block;color:#eef;padding:.25em 1em;border-left:solid thin #eef;text-decoration:none;}
 header nav ul li:first-of-type a{border-left:0px;}
@@ -29,7 +29,8 @@ header aside a,footer a{color:#dde;}
 footer{width:100%;clear:both;text-align:center;}
 footer a{display:inline-block;padding:.75em;margin:.75em;color:#ff8800;border:2px solid #ff8800;border-radius:3px;}
 footer p{display:inline-block;width:60%;}
-@media (max-width:800px){
+@media (max-width:500px){
+    header h1{position:relative;}
     #main div{clear:both;}
     #main .projects,#main .doodles{width:100%;border:0;}
 }
