@@ -1,4 +1,6 @@
-ad.com-2015
+ad.com-proto
 ===========
 
-New site layout for Alexidavis.com
+Prototype layout for Alexidavis.com from 2015
+
+[View here](http://alexidavis.github.io/ad.com-proto/)
